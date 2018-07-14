@@ -1,0 +1,110 @@
+*{
+    font-family: poppins,sans-serif;
+}
+body{
+    margin-top: 100px !important;
+}
+.navbar-default{
+    background-color:white !important;
+    border: none !important;
+}
+.navbar-brand{
+    color: black !important;
+    font-weight: bold;
+    font-size: 20px !important;
+}
+.navbar-nav a{
+    font-size: 16px;
+}
+/*------------------ showcase -----------------*/
+#showcase img{
+    width: 90%;
+}
+#showcase h2{
+    font-size: 50px !important;
+}
+#showcase p{
+    margin-top: 20px;
+    font-size: 15px;
+}
+#showcase button{
+    margin-top: 20px;
+}
+.showcase-right-col{
+    margin-top: 40px;
+}
+/*------------------ testimonial -----------------*/
+#testimonial{
+    margin-top: 80px;
+    padding: 40px;
+    text-align: center;
+    background-color: #f1f1f1;
+    font-size: 20px !important;
+}
+#testimonial p{
+    line-height: 30px;
+    color: black;
+    font-size: 30px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    font-family: "Josefin Sans",sans-serif;
+}
+#testimonial .customer{
+    color: #666;
+    font-size: 20px;
+}
+/*-------------------------- info --------------------*/
+#info1{
+    margin-top: 60px;
+}
+#info1 img{
+    width: 90%;
+}
+.info1-right-col{
+    margin-top: 50px;
+}
+.info1-right-col p{
+    margin-top: 20px;
+}
+.info1-right-col button{
+    margin-top: 20px;
+}
+/*---------------------------------- contact -----------------------*/
+#contact{
+    background-image: url("../img/image3.png");
+    color: white;
+    margin-top: 80px;
+    border-top: 8px solid #353535;
+    border-bottom: 8px solid #353535;
+}
+#contact form{
+    margin: 40px 0;
+}
+#contact input,#contact textarea{
+    border: none;
+}
+#contact input[type="submit"]:hover
+{
+    background-color: #666666;
+    color: white;
+    transition: background-color 2s;
+}
+/*------------footer ----------*/
+footer{
+    text-align: center;
+    padding: 40px 0;
+    font-size: 20px;
+}
+@media(max-width: 767px)
+{
+    #contact .container{
+      text-align: center;
+        display: unset;
+    }
+    #showcase img{
+
+    }
+    #showcase,#info1,#info2{
+        text-align: center;
+    }
+}
